@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portal Quântico Eletromagnético</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <canvas id="quantumCanvas"></canvas>
+    <div id="interfaceContainer">
+        <button id="initiateButton" class="quantum-button">Iniciar Sequência Quântica</button>
+        <div id="cipherSection" style="display:none;">
+            <input type="text" id="cipherInput" placeholder="Insira o código quântico">
+            <br>
+            <button id="decipherButton" class="quantum-button">Decifrar</button>
+            <br>
+            <button id="hintButton" class="quantum-button">Obter Dica</button>
+            <br>
+            <button id="backHintButton" class="quantum-button" style="display:none;">&#8592; Voltar</button>
+        </div>
+        <div id="message"></div>
+    </div>
+
+    <!-- Inclusão da Biblioteca Three.js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
